@@ -20,7 +20,8 @@ services:
     application:
         build: ./application
         volumes:
-            - ./projects/heartbeat:/var/www/laravel
+            - ./projects/heartbeat:/var/www/heartbeat
+            - ./projects/multi_example:/var/www/multi_example
 
 ### Databases Data Container ################################
 

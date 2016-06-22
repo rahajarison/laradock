@@ -1,7 +1,7 @@
 FROM debian:jessie
 
-MAINTAINER Mahmoud Zalt <mahmoud@zalt.me>
+MAINTAINER Rahajarison Johnny <johnny.rahajarison@mylittleadventure.com>
 
-WORKDIR /var/www/laravel
+WORKDIR /var/www
 
 CMD ["true"]
