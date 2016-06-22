@@ -306,12 +306,12 @@ sudo vi /etc/hosts
 docker-compose stop
 docker-compose build nginx application
 docker-compose up -d nginx mysql
+cd <project>
+chmod -R 777 bootstrap/cache storage/
+cp .env.example .env  # modify it
 docker-compose exec workspace bash
 cd ../<project>
 composer install
-chmod -R 777 bootstrap/cache
-chmod -R 777 storage
-cp .env.example .env  # modif it
 ```
 
 
