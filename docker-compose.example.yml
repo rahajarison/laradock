@@ -28,7 +28,7 @@ services:
     data:
         build: ./data
         volumes:
-            - /var/lib/mysql:/var/lib/mysql
+            - /var/lib/mysql
             - /var/lib/postgres:/var/lib/postgres
             - /var/lib/mariadb:/var/lib/mariadb
             - /var/lib/memcached:/var/lib/memcached
