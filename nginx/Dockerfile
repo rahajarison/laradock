@@ -1,9 +1,9 @@
 FROM nginx:latest
 
-MAINTAINER Mahmoud Zalt <mahmoud@zalt.me>
+MAINTAINER Rahajarison Johnny <johnny.rahajarison@mylittleadventure.com>
 
 ADD nginx.conf /etc/nginx/
-ADD laravel.conf /etc/nginx/sites-available/
+ADD sites-available /etc/nginx/sites-available
 
 RUN echo "upstream php-upstream { server php-fpm:9000; }" > /etc/nginx/conf.d/upstream.conf
 
