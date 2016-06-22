@@ -268,6 +268,7 @@ If you need a special support. Contact me, more details in the [Help & Questions
 <a name="Basic-setup"></a>
 ### Basic setup
 ```bash
+source ./load_env.sh
 git clone https://github.com/rahajarison/laradock.git
 <WARNING: here, you will need to create your vm and so on>
 cd laradock/
