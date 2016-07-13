@@ -39,6 +39,7 @@ RUN pecl install xdebug \
 
 # Install mongodb driver
 RUN pecl install mongodb
+RUN docker-php-ext-enable mongodb
 
 RUN usermod -u 1000 www-data
 
