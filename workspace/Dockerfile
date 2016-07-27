@@ -75,7 +75,7 @@ RUN curl -s http://getcomposer.org/installer | php \
 
 # Install mongodb extension
 RUN pecl install mongodb
-RUN echo "extension=mongodb.so" >> /etc/php/7.0/cli/php.ini
+# RUN echo "extension=mongodb.so" >> /etc/php/7.0/cli/php.ini
 
 # Source the bash
 RUN . ~/.bashrc
